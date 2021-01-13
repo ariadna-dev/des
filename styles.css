@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;     
+    }
+    
+    .clearfix{
+     float: none;
+     clear: both;
+    
+    }
+    
+    body{
+        background: url("tessellation.jpg");
+        background-attachment: fixed;
+    
+    }
+    
+    #global{
+    width:65%;
+    margin:0px auto;
+    margin-top: 30 px;
+    padding: 20px;
+  /*  background:url("tessellation2.jpg");*/
+    
+    }
+    
+    #logo{
+    font-family:'Verdana','Arial';
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 60px;
+   /* background: honeydew;*/
+    color: black;
+    text-align: center;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+    float: left;
+    
+    }
+    
+    #menu{
+    font-family:Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+
+    }
+
+    #menu ul{
+    line-height:46px;
+    list-style:none;
+    transition: all 300ms;
+
+    }
+
+    #menu ul li{
+    height:46px;
+    display:inline-block;
+
+    }
+
+    #menu ul li:hover{
+    background:black;
+
+    }
+
+
+    #menu ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    }
