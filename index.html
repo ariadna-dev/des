@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+
+
+<head lang = "es " >
+    <meta charset = "utf-8"/> 
+
+    <title> Projecte encriptació amb DES </title> 
+  
+      <link rel = "stylesheet" type = "text/css" href="styles.css"/> 
+    </head>
+
+    <body>
+        <section id = "global">
+
+            <header>
+        
+                 <div id = "logo">
+                    <h1>ENCRIPTACIÓ AMB DES</h1>
+                 </div>
+            
+            <div class="clearfix"></div>
+
+                 <nav id = "menu">
+                    
+                    <ul id= "menu">
+                        <li><a href = "index.html">Encriptar missatges</a></li>
+                        <li><a href = "info.html">Informació</a></li>
+                    </ul>
+                    
+                 <nav>
+
+                </header>
+
+            <section id="content">
+            <div>
+                <p>
+                 <form action = "" method="POST" id = "formulario" onsubmit = "return false;">
+                 <p> 
+                 <label for="mensaje" >MENSAJE</label>
+                 <textarea for="mensaje" name = "mensaje" id = "mensaje" ></textarea>
+                 </p>
+                  <label for="clave" >CLAVE</label>
+                 <textarea type = "text" name = "clave" id = "clave"></textarea>
+                 </p>
+                 <label for="mensajeen" >MENSAJE ENCRIPTADO</label>
+                 <textarea type = "text" name = "mensajeen" id = "mensajeen"></textarea>
+                 <p>
+                  <label for= >MENSAJE DESENCRIPTADO</label>
+                 <textarea type = "text" name = "mensajedes" id = "mensajedes"></textarea>
+                 </p>
+                 <p>
+                 <button  id = "boton" onclick = "setMessage();">submit</button>
+                 </p>
+                
+    
+                </div>
+        
+                <script type = "text/javascript" src = "tablas.js" ></script>
+                <script type = "text/javascript" src = "funciones.js" ></script>
+                <script type = "text/javascript" src = "encriptacion tdr.js" ></script>
+    
+    
+                <div class="clearfix"></div>
+         <!--
+         -->
+
+            </form>
+        </p>
+    </section>
+
+</section>
+        
+
+
+</body>
